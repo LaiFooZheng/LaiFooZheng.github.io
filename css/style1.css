@@ -226,7 +226,7 @@ h1 {
   background-color: #eee;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 1em;
   width: 100%;
   border: none;
   text-align: left;
@@ -273,12 +273,17 @@ h1 {
 .close-btn {
   padding: 0.5em;
   font-size: 1em;
-  background-color: #6a9eeb;
-  color: white;
   border: none;
   cursor: pointer;
   display: block;
-  width: 100%;
+  color: #777;
+  float: right;
+  width: 5%;
+}
+
+.close-btn:hover {
+  background: #2196f3;
+  color: white;
 }
 
 /* Projects Styling */
