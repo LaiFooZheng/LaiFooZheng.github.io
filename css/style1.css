@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+ul {
+  margin: 0;
+}
+
 /* Set default formatting */
 section {
   scroll-margin-top: 5em;
@@ -221,6 +225,11 @@ h1 {
   font-size: 1.3em;
 }
 
+.timeline-link {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
 /* Coursework Styling */
 .accordion {
   background-color: #eee;
@@ -278,7 +287,7 @@ h1 {
   display: block;
   color: #777;
   float: right;
-  width: 5%;
+  width: 3em;
 }
 
 .close-btn:hover {
